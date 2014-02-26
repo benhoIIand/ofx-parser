@@ -1,0 +1,90 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0</CODE>
+                <SEVERITY>INFO</SEVERITY>
+            </STATUS>
+            <DTSERVER>20121004210819</DTSERVER>
+            <LANGUAGE>ENG</LANGUAGE>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <STMTTRNRS>
+            <TRNUID>1349428292</TRNUID>
+            <STATUS>
+                <CODE>0</CODE>
+                <SEVERITY>INFO</SEVERITY>
+            </STATUS>
+            <STMTRS>
+                <CURDEF>NZD</CURDEF>
+                <BANKACCTFROM>
+                    <BANKID>01</BANKID>
+                    <BRANCHID>0123</BRANCHID>
+                    <ACCTID>1234567-00</ACCTID>
+                    <ACCTTYPE>SAVINGS</ACCTTYPE>
+                </BANKACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20120101</DTSTART>
+                    <DTEND>20121003</DTEND>
+                    <STMTTRN>
+                        <TRNTYPE>INT</TRNTYPE>
+                        <DTPOSTED>20120928</DTPOSTED>
+                        <TRNAMT>19.90</TRNAMT>
+                        <FITID>20120928.0</FITID>
+                        <MEMO>Credit Interest Paid</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20120928</DTPOSTED>
+                        <TRNAMT>-1.01</TRNAMT>
+                        <FITID>20120928.1</FITID>
+                        <MEMO>Withholding Tax</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20120907</DTPOSTED>
+                        <TRNAMT>-100.00</TRNAMT>
+                        <FITID>20120907.0</FITID>
+                        <NAME>06 0773 0214764 33</NAME>
+                        <MEMO>Debit Transfer: Bike</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20120907</DTPOSTED>
+                        <TRNAMT>-71.99</TRNAMT>
+                        <FITID>201209071</FITID>
+                        <NAME>Transfer</NAME>
+                        <MEMO>Debit Transfer: Postage</MEMO>
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT</TRNTYPE>
+                        <DTPOSTED>20120104</DTPOSTED>
+                        <TRNAMT>-20.01</TRNAMT>
+                        <FITID>20120104.6</FITID>
+                        <NAME>Transfer</NAME>
+                        <MEMO>Debit Transfer Party</MEMO>
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>4225.79</BALAMT>
+                    <DTASOF>20121004</DTASOF>
+                </LEDGERBAL>
+                <AVAILBAL>
+                    <BALAMT>12.79</BALAMT>
+                    <DTASOF>20121004</DTASOF>
+                </AVAILBAL>
+            </STMTRS>
+        </STMTTRNRS>
+    </BANKMSGSRSV1>
+</OFX>
